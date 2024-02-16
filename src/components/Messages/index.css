@@ -1,0 +1,59 @@
+.messages-container {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.messages-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(209, 202, 202, 0.227);
+  width: 63vw;
+  align-items: center;
+  object-fit: contain;
+}
+.bottom-navbar-container {
+  background-color: rgba(209, 202, 202, 0.227);
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  height: 10vh;
+}
+.Name-Container {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.message-person {
+  margin-left: 20px;
+}
+.smile {
+  font-size: 35px;
+  padding: 5px;
+}
+.Media {
+  font-size: 35px;
+  padding: 5px;
+}
+.microphone {
+  font-size: 35px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.messagetext {
+  height: 35px;
+  width: 48vw;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50px;
+  border-color: antiquewhite;
+}
+.magnifier {
+  margin-right: 25px;
+}
+.menu {
+  margin-right: 25px;
+}

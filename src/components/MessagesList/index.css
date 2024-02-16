@@ -1,0 +1,80 @@
+.container {
+  padding: 10px;
+  margin: 5px;
+  width: 30%;
+  overflow: scroll;
+  scrollbar-width: thin;
+}
+.navbarContainer {
+  background-color: #ece5dd;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: contain;
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+}
+.profile {
+  height: 55px;
+  background-color: white;
+  border-radius: 50px;
+}
+.menucontainer {
+  margin-right: 25px;
+}
+.navbar-icons {
+  font-size: 35px;
+  margin: 5px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.searchbar {
+  width:30%;
+  margin-top: 25px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+}
+.search {
+  height: 35px;
+  width: 80%;
+  text-align: center;
+  border-radius: 16px;
+}
+.Messages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border-top: 1px solid lightslategray;
+}
+.messagesContainer {
+  background-color: #fefde6;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  position: relative;
+  top: 135px;
+}
+.Details {
+  margin-left: 25px;
+}
+.message-profile {
+  height: 65px;
+  background-color: white;
+  border-radius: 50px;
+}
+.filterIcon{
+  font-size: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.messagesContainer::-webkit-scrollbar {
+  width: 0;
+}
